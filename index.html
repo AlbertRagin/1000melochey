@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1000 мелочей | Строительный магазин в Когалыме</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 🎯 ХЕДЕР -->
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="logo">
+                    <h1>1000 мелочей</h1>
+                    <p>строительный магазин</p>
+                </div>
+                <nav class="nav">
+                    <a href="#catalog" class="nav-link">Каталог</a>
+                    <a href="#about" class="nav-link">О нас</a>
+                    <a href="#delivery" class="nav-link">Доставка</a>
+                    <a href="#reviews" class="nav-link">Отзывы</a>
+                    <a href="#contacts" class="nav-link">Контакты</a>
+                </nav>
+                <div class="header-actions">
+                    <a href="tel:+73466748808" class="phone-btn">📞 +7 (34667) 4-88-08</a>
+                    <a href="https://t.me/+79505210368" target="_blank" class="telegram-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M22 3.5L20.5 14.5L14 18L8 15.5L3 17.5L7.5 10.5L3.5 6L22 3.5Z" fill="#0088cc"/>
+                        </svg>
+                        Написать
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 🏠 ГЛАВНАЯ -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Строительные материалы в Когалыме</h2>
+                <p class="hero-subtitle">Плитка, краска, сантехника, инструменты — всё для ремонта и стройки под рукой</p>
+                <div class="hero-btns">
+                    <a href="#catalog" class="btn btn-primary">Смотреть товары</a>
+                    <a href="#contacts" class="btn btn-secondary">Как нас найти</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">15+</span>
+                        <span class="stat-label">лет на рынке</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">10 000+</span>
+                        <span class="stat-label">позиций в наличии</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">5 000+</span>
+                        <span class="stat-label">довольных клиентов</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 📍 О МАГАЗИНЕ -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">О нас</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p><strong>«1000 мелочей»</strong> — это надёжный строительный магазин в самом сердце Когалыма. Мы работаем с 2008 года и знаем всё о стройматериалах.</p>
+                    <p>У нас всегда в наличии:</p>
+                    <ul class="about-list">
+                        <li>✅ Строительные материалы и смеси</li>
+                        <li>✅ Сантехника и трубы</li>
+                        <li>✅ Инструменты и крепёж</li>
+                        <li>✅ Лакокрасочные материалы</li>
+                        <li>✅ Плитка, обои, напольные покрытия</li>
+                    </ul>
+                    <p>Приезжайте — поможем подобрать всё, что нужно для ремонта!</p>
+                </div>
+                <div class="about-2gis">
+                    <h3>Наш адрес на карте:</h3>
+                    <a href="https://2gis.ru/kogalym/branches/70000001034243070/firm/70000001034243071/74.540657%2C62.26784?m=74.5577%2C62.26885%2F14.34" target="_blank" class="map-link">
+                        <img src="https://api.2gis.ru/static/2gis-logo.svg" alt="2ГИС" class="map-logo">
+                    </a>
+                    <div class="map-placeholder">
+                        <p>📍 г. Когалым, ул. Нефтяников, 21</p>
+                        <p>🕒 Пн-Пт: 9:00–19:00, Сб-Вс: 10:00–17:00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 📦 КАТАЛОГ -->
+    <!-- <section id="catalog" class="catalog">
+        <div class="container">
+            <h2 class="section-title">Популярные товары</h2>
+            <div class="catalog-grid">
+                <div class="catalog-card">
+                    <div class="catalog-img" style="background-color: #f8f9fa;">
+                        <span class="catalog-placeholder">Плитка</span>
+                    </div>
+                    <h3>Керамическая плитка</h3>
+                    <p>От 350 ₽/м²</p>
+                    <a href="tel:+73466748808" class="catalog-btn">Заказать</a>
+                </div>
+                <div class="catalog-card">
+                    <div class="catalog-img" style="background-color: #f8f9fa;">
+                        <span class="catalog-placeholder">Краска</span>
+                    </div>
+                    <h3>Лакокрасочные материалы</h3>
+                    <p>От 450 ₽</p>
+                    <a href="tel:+73466748808" class="catalog-btn">Заказать</a>
+                </div>
+                <div class="catalog-card">
+                    <div class="catalog-img" style="background-color: #f8f9fa;">
+                        <span class="catalog-placeholder">Сантехника</span>
+                    </div>
+                    <h3>Сантехника</h3>
+                    <p>От 800 ₽</p>
+                    <a href="tel:+73466748808" class="catalog-btn">Заказать</a>
+                </div>
+                <div class="catalog-card">
+                    <div class="catalog-img" style="background-color: #f8f9fa;">
+                        <span class="catalog-placeholder">Инструменты</span>
+                    </div>
+                    <h3>Инструменты</h3>
+                    <p>От 500 ₽</p>
+                    <a href="tel:+73466748808" class="catalog-btn">Заказать</a>
+                </div>
+            </div>
+            <div class="catalog-more">
+                <p>Полный ассортимент уточняйте по телефону или в магазине</p>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- 📦 КАТАЛОГ -->
+    <section id="catalog" class="catalog">
+        <div class="container">
+            <h2 class="section-title">Популярные товары</h2>
+            <div class="catalog-grid">
+                <div class="catalog-card">
+                    <div class="catalog-img">
+                        <img src="images/plitka.jpg" alt="Керамическая плитка">
+                    </div>
+                    <h3>Керамическая плитка</h3>
+                    <p>От 350 ₽/м²</p>
+                    <a href="tel:+73466221111" class="catalog-btn">Заказать</a>
+                </div>
+                <div class="catalog-card">
+                    <div class="catalog-img">
+                        <img src="images/kraskainter.jpg" alt="Лакокрасочные материалы">
+                    </div>
+                    <h3>Лакокрасочные материалы</h3>
+                    <p>От 450 ₽</p>
+                    <a href="tel:+73466221111" class="catalog-btn">Заказать</a>
+                </div>
+                <div class="catalog-card">
+                    <div class="catalog-img">
+                        <img src="images/santehnika.jpg" alt="Сантехника">
+                    </div>
+                    <h3>Сантехника</h3>
+                    <p>От 800 ₽</p>
+                    <a href="tel:+73466221111" class="catalog-btn">Заказать</a>
+                </div>
+                <div class="catalog-card">
+                    <div class="catalog-img">
+                        <img src="images/instrument.jpg" alt="Инструменты">
+                    </div>
+                    <h3>Инструменты</h3>
+                    <p>От 500 ₽</p>
+                    <a href="tel:+73466221111" class="catalog-btn">Заказать</a>
+                </div>
+            </div>
+            <div class="catalog-more">
+                <p>Полный ассортимент уточняйте по телефону или в магазине</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 🚚 ДОСТАВКА -->
+    <section id="delivery" class="delivery">
+        <div class="container">
+            <h2 class="section-title">Доставка и оплата</h2>
+            <div class="delivery-grid">
+                <div class="delivery-card">
+                    <div class="delivery-icon">🚚</div>
+                    <h3>Доставка</h3>
+                    <p>По Когалыму — от 300 ₽</p>
+                    <p>За город — договорная</p>
+                    <p>Самовывоз — бесплатно</p>
+                </div>
+                <div class="delivery-card">
+                    <div class="delivery-icon">💳</div>
+                    <h3>Оплата</h3>
+                    <p>Наличные</p>
+                    <p>Карты (СБП, МИР, Виза, Мастеркард)</p>
+                    <p>По счёту для юрлиц</p>
+                </div>
+                <div class="delivery-card">
+                    <div class="delivery-icon">🔄</div>
+                    <h3>Возврат</h3>
+                    <p>Возврат товара в течение 14 дней</p>
+                    <p>Обмен брака — бесплатно</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ⭐ ОТЗЫВЫ -->
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <h2 class="section-title">Отзывы клиентов</h2>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-author">
+                        <div class="review-avatar">👨</div>
+                        <div>
+                            <div class="review-name">Андрей</div>
+                            <div class="review-city">Когалым</div>
+                        </div>
+                    </div>
+                    <div class="review-text">
+                        <p>Заказывал плитку и клей. Привезли в тот же день, всё чётко. Цены адекватные, не как у «офигельных» конкурентов 😄</p>
+                    </div>
+                    <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="review-card">
+                    <div class="review-author">
+                        <div class="review-avatar">👩</div>
+                        <div>
+                            <div class="review-name">Марина</div>
+                            <div class="review-city">Когалым</div>
+                        </div>
+                    </div>
+                    <div class="review-text">
+                        <p>Делали ремонт в квартире. Всё купили здесь — от краски до розеток. Муж говорит, что инструменты нормальные, не китайский хлам.</p>
+                    </div>
+                    <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="review-card">
+                    <div class="review-author">
+                        <div class="review-avatar">👷</div>
+                        <div>
+                            <div class="review-name">Сергей</div>
+                            <div class="review-city">Приобье</div>
+                        </div>
+                    </div>
+                    <div class="review-text">
+                        <p>Приезжаю из Приобки, потому что здесь реально дешевле, чем в Сургуте. И доставку делают до нас. Спасибо, ребята!</p>
+                    </div>
+                    <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 📞 КОНТАКТЫ -->
+    <section id="contacts" class="contacts">
+        <div class="container">
+            <h2 class="section-title">Контакты</h2>
+            <div class="contacts-grid">
+                <div class="contacts-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <div class="contact-label">Адрес</div>
+                            <div class="contact-value">г. Когалым, ул. Рижская, 48</div>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">🕒</div>
+                        <div>
+                            <div class="contact-label">Режим работы</div>
+                            <div class="contact-value">Пн-Пт: 9:00–19:00</div>
+                            <div class="contact-value">Сб-Вс: 10:00–17:00</div>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <div class="contact-label">Телефон</div>
+                            <a href="tel:+73466748808" class="contact-phone">+7 (34667) 4-88-08</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div>
+                            <div class="contact-label">Telegram</div>
+                            <a href="https://t.me/+79505210368" target="_blank" class="contact-telegram">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                    <path d="M22 3.5L20.5 14.5L14 18L8 15.5L3 17.5L7.5 10.5L3.5 6L22 3.5Z" fill="#0088cc"/>
+                                </svg>
+                                +7 (950) 521-03-68
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contacts-2gis">
+                    <h3>Найти нас на карте:</h3>
+                    <a href="https://2gis.ru/kogalym/branches/70000001034243070/firm/70000001034243071/74.540657%2C62.26784?m=74.5577%2C62.26885%2F14.34" target="_blank" class="big-map-btn">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="#fff">
+                            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 010-5 2.5 2.5 0 010 5z" fill="#fff"/>
+                        </svg>
+                        Открыть в 2ГИС
+                    </a>
+                    <p class="map-note">Удобная навигация, фото магазина, отзывы</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 🎁 АКЦИИ -->
+    <section class="promo">
+        <div class="container">
+            <div class="promo-content">
+                <h2>🔥 Специальное предложение</h2>
+                <p class="promo-text">При заказе от 10 000 ₽ — доставка по Когалыму <strong>бесплатно</strong>!</p>
+                <a href="tel:+73466748808" class="btn btn-promo">Позвонить и заказать</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 🦶 ФУТЕР -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>1000 мелочей</h3>
+                    <p>Строительный магазин в Когалыме с 2008 года</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Меню</h4>
+                    <a href="#catalog">Каталог</a>
+                    <a href="#about">О нас</a>
+                    <a href="#delivery">Доставка</a>
+                    <a href="#contacts">Контакты</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Контакты</h4>
+                    <a href="tel:+73466748808">📞 +7 (34667) 4-88-08</a>
+                    <a href="https://t.me/+79505210368" target="_blank">💬 Telegram</a>
+                    <a href="https://2gis.ru/kogalym/branches/70000001034243070/firm/70000001034243071/74.540657%2C62.26784?m=74.5577%2C62.26885%2F14.34" target="_blank">📍 2ГИС</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 «1000 мелочей». Все права защищены.</p>
+                <p>Сделано с ❤️ для Когалыма</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 📱 МОБИЛЬНОЕ МЕНЮ -->
+    <div class="mobile-menu-btn" id="mobileMenuBtn">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
