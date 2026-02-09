@@ -433,20 +433,10 @@ body {
     box-shadow: 0 5px 20px rgba(0,0,0,0.1);
 }
 
-/* .catalog-img {
-    width: 120px;
-    height: 120px;
-    margin: 0 auto 20px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
-
 .catalog-img {
-    width: 100%;
+    width: 100%; /* полная ширина карточки */
     height: 200px;
-    margin-bottom: 20px;
+    margin: 0 auto 20px; /* центрирование */
     border-radius: 10px;
     overflow: hidden;
     background: #f8f9fa;
@@ -466,6 +456,47 @@ body {
 .catalog-img:hover img {
     transform: scale(1.05); /* эффект при наведении */
 }
+
+/* Старый плейсхолдер (удали или закомментируй) */
+/* .catalog-placeholder {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--gray);
+} */
+
+/* .catalog-img {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* .catalog-img {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.catalog-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* фото заполняет всю область */
+    /* transition: transform 0.3s ease;
+} */
+
+/* .catalog-img:hover img {
+    transform: scale(1.05); /* эффект при наведении */
+
 
 /* Старый плейсхолдер (удали или закомментируй) */
 /* .catalog-placeholder {
@@ -894,5 +925,144 @@ body {
     
     .catalog-placeholder {
         font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-inner {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .logo h1 {
+        font-size: 24px;
+    }
+    
+    .hero {
+        padding: 60px 0;
+    }
+    
+    .hero h2 {
+        font-size: 28px;
+    }
+    
+    .hero-btns {
+        flex-direction: column;
+    }
+    
+    .hero-stats {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .section-title {
+        font-size: 28px;
+    }
+    
+    .delivery-grid,
+    .reviews-grid,
+    .catalog-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .catalog-card {
+        padding: 30px 20px;
+    }
+    
+    .catalog-img {
+        width: 100%;
+        height: 200px;
+        margin: 0 auto 20px;
+    }
+    
+    .catalog-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    /* 📞 КОМПАКТНЫЕ КНОПКИ КОНТАКТОВ */
+    .phone-btn,
+    .telegram-btn {
+        padding: 8px 16px;
+        font-size: 14px;
+        border-radius: 20px;
+    }
+    
+    .phone-btn {
+        background: white;
+        color: var(--secondary);
+    }
+    
+    .mobile-menu-btn {
+        display: block;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h2 {
+        font-size: 24px;
+    }
+    
+    .hero-subtitle {
+        font-size: 16px;
+    }
+    
+    .btn {
+        padding: 12px 25px;
+        font-size: 14px;
+    }
+    
+    .catalog-card {
+        padding: 25px 15px;
+    }
+    
+    .catalog-img {
+        width: 100%;
+        height: 180px;
+        margin: 0 auto 20px;
+    }
+    
+    .catalog-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .catalog-placeholder {
+        font-size: 16px;
+    }
+    
+    .catalog-card h3 {
+        font-size: 18px;
+    }
+    
+    .catalog-card p {
+        font-size: 15px;
+    }
+    
+    .catalog-btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    
+    /* 📞 МИНИМАЛИСТИЧНЫЕ КНОПКИ */
+    .phone-btn,
+    .telegram-btn {
+        padding: 6px 12px;
+        font-size: 13px;
+        min-width: auto;
+        border-radius: 18px;
+    }
+    
+    .phone-btn::before {
+        content: '☎';
+        margin-right: 4px;
+        font-size: 14px;
+    }
+    
+    .telegram-btn svg {
+        width: 18px;
+        height: 18px;
     }
 }
